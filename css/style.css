@@ -1,0 +1,78 @@
+body {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Syncopate', sans-serif;
+    background-image: url("https://dl.dropboxusercontent.com/s/xg6mqa90o1hqk4l/numbers-background-footage-008985563_prevstill.jpeg?dl=0");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn-extra-lg:active {
+    border: none;
+    outline: none;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.well {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.calculator-body {
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-extra-lg {
+    padding: 20px 30px;
+    margin: 8px auto;
+    font-size: 1em;
+    line-height: normal;
+    border-radius: 8px;
+    height: 100%;
+    width: 23%;
+    text-align: center;
+}
+
+.cur-oper {
+    background-color: black;
+    color: white;
+}
+
+#output {
+    width: 80%;
+    text-align: center;
+    font-size: auto;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 450px) {
+    .calculator-body {
+        margin-top: 100px;
+    }
+}

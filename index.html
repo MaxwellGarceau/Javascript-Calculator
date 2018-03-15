@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator (Final)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Changa|Julius+Sans+One|Orbitron|Syncopate" rel="stylesheet">
+<title>Javascript Calculator</title>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!--Javascript Calculator-->
+<div id="calculator" class="well calculator-body container">
+    <h4 style="color: white; padding-top: 20px; padding-bottom: 10px; font-size: 1.5em;">Let Me Solve Your Problems</h4>
+    <form>
+        <input type="text" id="output" value="༼ つ ◕_◕ ༽つ ༼ つ ◕_◕ ༽つ" disabled>
+        <!--Row 1 (Top)-->
+        <div class="row center">
+            <button type="button" class="btn btn-extra-lg clear" value="CE" id="CE"><span style="margin-left: -6px;">CE</span></button>
+            <button style="width: 47%;" type="button" class="btn btn-extra-lg clear" value="AC" id="AC">AC</button>
+            <button type="button" class="btn btn-extra-lg operator" value="/" id="divide">÷</button>
+        </div>
+        <!--Row 2-->
+        <div class="row center">
+            <button type="button" class="btn btn-extra-lg number" value="7" id="seven">7</button>
+            <button type="button" class="btn btn-extra-lg number" value="8" id="eight">8</button>
+            <button type="button" class="btn btn-extra-lg number" value="9" id="nine">9</button>
+            <button type="button" class="btn btn-extra-lg operator" value="*" id="multiply">X</button>
+        </div>
+        <!--Row 3-->
+        <div class="row center">
+            <button type="button" class="btn btn-extra-lg number" value="4" id="four">4</button>
+            <button type="button" class="btn btn-extra-lg number" value="5" id="five">5</button>
+            <button type="button" class="btn btn-extra-lg number" value="6" id="six">6</button>
+            <button type="button" class="btn btn-extra-lg operator" value="-" id="subtract">-</button>
+        </div>
+        <!--Row 4-->
+        <div class="row center">
+            <button type="button" class="btn btn-extra-lg number" value="1" id="one">1</button>
+            <button type="button" class="btn btn-extra-lg number" value="2" id="two">2</button>
+            <button type="button" class="btn btn-extra-lg number" value="3" id="three">3</button>
+            <button type="button" class="btn btn-extra-lg operator" value="+" id="add">+</button>
+        </div>
+        <!--Row 5-->
+        <div class="row center">
+            <button type="button" class="btn btn-extra-lg number" value="0" id="zero" style="width: 22%;">0</button>
+            <button type="button" class="btn btn-extra-lg number" value="." id="decimal" style="width: 22%;">.</button>
+            <button style="width: 47%;" type="button" class="btn btn-extra-lg operator" value="=" id="equals">=</button>
+        </div>
+        <div class="row center">
+            <button style="width: 80%; margin-bottom: 20px;" type="button" class="btn btn-extra-lg" id="emotional-support"><span style="margin-left: -8px;">Emotional Support</span></button>
+        </div>
+    </form>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/systemjs-plugin-json/0.3.0/json.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
